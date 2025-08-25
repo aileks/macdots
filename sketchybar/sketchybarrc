@@ -5,7 +5,7 @@ source "$CONFIG_DIR/colors.sh"
 ITEM_DIR="$CONFIG_DIR/items"
 
 bar=(
-  height=36
+  height=32
   position=top
   shadow=off
   sticky=off
@@ -46,8 +46,6 @@ source "$ITEM_DIR/clock.sh"
 source "$ITEM_DIR/volume.sh"
 source "$ITEM_DIR/brew.sh"
 source "$ITEM_DIR/weather.sh"
-
-sketchybar --trigger aerospace_workspace_change
 
 sketchybar --hotload true
 sketchybar --update

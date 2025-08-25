@@ -16,7 +16,7 @@ fi
 
 sketchybar --set "$NAME" icon="􀢌" \
                          icon.font="SF Pro:Bold:14" \
-                         icon.color="$FG2" \
+                         icon.color=$FG2 \
                          label=$APP_NAME \
                          background.color=$BG1 \
                          drawing=on

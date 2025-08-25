@@ -11,8 +11,7 @@ for sid in $(aerospace list-workspaces --all); do
              background.color=$BG1 \
              label.font="sketchybar-app-font:Regular:14" \
              icon.font="AdwaitaMono Nerd Font Propo:Bold:14" \
-             drawing=off \
-             click_script="aerospace workspace $sid"
+             drawing=off click_script="aerospace workspace $sid"
 done
 
 sketchybar --add item aerospace_controller left \
