@@ -16,7 +16,7 @@ bar=(
     border_width=2
     corner_radius=12
     blur_radius=30
-    margin=4
+    margin=6
     y_offset=4
 )
 
